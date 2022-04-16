@@ -1,0 +1,24 @@
+/*Responsividade*/
+@media screen and (max-width:700px){
+	header .container{
+		display: flex;
+		flex-direction: column;
+		padding:2%;
+	}
+	header .nomelogo{
+		padding:2%;
+	}
+}
+
+@media screen and (min-width:1000px){
+	.descricao{
+		width:45%;
+	}
+}
+
+@media screen and (max-width:1250px){
+    .listafilmes {
+        width:40%;
+        margin-left: 40px;
+         
+    }
